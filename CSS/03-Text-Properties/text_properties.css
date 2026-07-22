@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial;
+}
+h3{
+    text-align: right;
+    font-weight: normal;
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    letter-spacing: 10px;
+}
+p{
+    text-align: justify;
+    font-weight: 900;
+    text-decoration:blueviolet overline;
+    line-height: 4;
+}
+a{
+    text-decoration: none;
+}

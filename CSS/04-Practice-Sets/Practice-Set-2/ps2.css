@@ -1,0 +1,23 @@
+p{
+    font-family: League Spartan,sans-serif;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+}
+/* 
+    Design Nishant malik using  css
+    font family to league spartan
+    color of text to #ffa511
+    text size to 55px and font weight to 900
+    space between letter to 2.5px
+    line height 1.5x the normal 
+    add teal double underline
+    uppercase all letters using css
+
+
+*/
