@@ -1,0 +1,105 @@
+*{
+    font-family: Courier New;
+}
+
+h1,h3{
+    color: #b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    background-color: green;
+    color: aqua;
+}
+
+/* Descendant Selector*/
+/* we can also use class in place of id and elements for descendant selector*/
+div[id="myid"] p{
+    color: blue;
+}
+#myid h6{
+    color: #b92b27;
+}
+#my p{
+    color: pink;
+}
+
+p a{
+    color: gold;
+}
+div h6 a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Sibling Combinator*/
+
+p + h3 {
+    text-decoration: underline;    
+}
+
+.upvote + button{
+    background-color: aqua;
+}
+
+#myid + div {
+    text-decoration: double underline;
+}
+
+/* descendent and sibling combinator together*/
+#myid + div h4{
+    color: aquamarine;
+}
+
+/* child selector*/
+
+div > input {
+    background-color: orange;
+}
+div>h4>input{
+    background-color: #b92b27;
+}
+
+/*Attribute Selector*/
+input[placeholder="username"]{
+    color: red;
+}
+input[placeholder = "password"]{
+    color: green;
+}
+
+/*Pseudo class*/
+h3:hover{
+    text-decoration: none;
+}
+hr+button:active{
+    background-color: black;
+}
+main p:active{
+    color: blue;
+}
+input[type="radio"]:checked + label{
+    color: #b92b27;
+}
+body>ul>li:nth-of-type(2n){
+    background-color: green;
+}
+body>ul>li:nth-of-type(1){
+    background-color: orange;
+}
+
+/*pseudo element*/
+body>ul>li::first-letter{
+    background-color: rgb(140, 0, 255);
+}
+body>ul>li:nth-of-type(4)::first-line{
+    color: rgb(255, 0, 0);
+}
+body>ul>li::selection{
+    background-color: rgb(24, 23, 23);
+}
