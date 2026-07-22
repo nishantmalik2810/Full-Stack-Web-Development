@@ -1,0 +1,20 @@
+/*
+implement css in this html
+set font family of entire dovument to courier new
+set text color for all h1 heading to #1b74e4
+background color of search button to black and text to white
+background color of login and signup to aqua
+*/
+*{
+    font-family: "Courier New";
+}
+h1{
+    color: #1b74e4;
+}
+button[id="searchbtn"]{
+    background-color: black;
+    color: white;
+}
+.userbtn{
+    background-color: aqua;
+}
