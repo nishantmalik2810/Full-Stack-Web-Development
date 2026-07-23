@@ -1,0 +1,31 @@
+/*alpha = ye  sirf color pr work krega*/
+#alpha{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,0,0,0.5);
+}
+
+/*opacity = ye sb pr work krega jo div ke andr hai iske wale*/
+
+#opacity{
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    background-color: yellow;
+    opacity: .7;
+}
+
+/* transition */
+#transition{
+    height: 200px;
+    width: 200px;
+    background-color: #ffa500b7;
+    margin-left: 10px;
+    transition: margin-left 2s ease-in 0.2s;
+}
+#transition:hover{
+    margin-left: 400px;
+    background-color: black;
+    border-radius: 50%;
+}
+
