@@ -1,0 +1,42 @@
+#one{
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    margin: 50px auto;
+    background-image: url(image.jpg);
+    background-size: contain;
+    color: white;
+}
+#two{
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    margin: 50px auto;
+    background-image: url(image.jpg);
+    background-size: cover;
+    color: white;
+}
+#three{
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    margin: 50px auto;
+    background-image: url(image.jpg);
+    background-size: auto;
+    color: white;
+}
+#four{
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    margin: 50px auto;
+    background-image: url(image.jpg);
+    color: white;
+}
+#five{
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    margin: 50px auto;
+    color: white;
+}

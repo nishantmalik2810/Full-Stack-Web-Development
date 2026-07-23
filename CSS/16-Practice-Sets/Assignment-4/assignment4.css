@@ -1,0 +1,48 @@
+/*
+
+q1- add a 2s transition on box1 for width change. it should have ease in speed curve nd 0.5 sec delay
+q2- using transform move box2 200px to right and 200px downalso roatte it 90 deg.
+q3- using transform skew box3 20deg along the xaxis
+q4- set a 2px horizontal &2px verticle, green shadow for box4 with a 5px blur radius.
+q5- set your picture or any picture as the background of the div myPic also set the transparency of this div to 50%
+
+*/
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    transition: width 2s ease-in 0.5s;
+}
+#box1:hover{
+    width: 600px;
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(90deg);
+    transform: translate(200px,200px);
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transform: skewX(20deg);
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    box-shadow: 2px 2px 5px green;
+}
+#myPic{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    background-image: url(image.jpg);
+    background-size: contain;
+    opacity: 50%;
+    color: beige;
+}
