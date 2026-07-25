@@ -1,0 +1,201 @@
+h1{
+    text-align: center;
+}
+
+
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+#container div{
+    height: 50px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+#container1{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+#container1 div{
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+#container2{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+#container2 div{
+    height: 50px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+#container3{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+#container3 div{
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#container4{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+#container4 div{
+    height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+#container5{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-start;
+}
+#container5 div{
+    height: 100px;
+    width: 75px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+#container6{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-end;
+}
+#container6 div{
+    height: 100px;
+    width: 75px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+#container7{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+#container7 div{
+    height: 100px;
+    width: 75px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+
+#container8{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+}
+#container8 div{
+    height: 100px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+
+#container9{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-end;
+
+}
+#yellow{
+    align-self: flex-start;
+    flex-basis: 100px;
+}
+#blue{
+    align-self: center;
+    flex-grow:1;
+    max-width: 150px;
+}
+#container9 div{
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
