@@ -1,0 +1,27 @@
+div{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin-bottom: 10px
+}
+@media(width:500px){
+    div{
+        background-color: green
+    }
+}
+/* @media(min-width:400px){
+    #hi{
+        background-color: green
+    }
+} */
+@media(max-width:500px){
+    #hi{
+        background-color: green;
+    }
+}
+/* to set range*/
+@media(min-width:300px) and (max-width:600px){
+    #hello{
+        background-color: black;
+    }
+}
