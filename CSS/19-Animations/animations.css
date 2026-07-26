@@ -1,0 +1,35 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(255, 255, 0);
+    margin-bottom: 80px;
+
+    animation-name: Animation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite; /* can give any no. from 1 to infinite*/
+    animation-direction: alternate;
+
+}
+@keyframes Animation{
+    from{text-align: left; height: 100px;font-size: 10px;width: 300px; background-color: yellow; border-radius: 0%;}
+    to{text-align: center; height: 500px; font-size: 50px;width: 500px; background-color: pink; border-radius: 50%;}
+}
+
+.box1{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(255, 255, 0);
+    animation: myname 3s ease-out .2s infinite normal;
+    text-align: center;
+}
+@keyframes myname{
+    0%{ background-color: yellow;color: black;}
+    50%{
+        background-color: black; color: white;
+    }
+    100%{
+        background-color: burlywood; color: brown;
+    }
+}
